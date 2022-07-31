@@ -11,7 +11,7 @@ As Kurt's original extension was removed from the Chrome Web Store, the only way
 
 1. Clone this repo to your local machine.
 2. Navigate to chrome://extensions/
-3. Enable 'Developer Options' in the top right of the page.
+3. Enable 'Developer Mode' in the top right of the page.
 4. Click 'Load Unpacked' in the top left of the page
 5. Navigate to, and select, the root directory of your cloned copy of the repo.
 6. The extension should now be added to your Chrome! Enjoy!
