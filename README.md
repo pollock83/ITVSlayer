@@ -2,7 +2,7 @@
 # ITVSlayer 
 A Google Chrome extension to bypass ITVHub/Player ads
 
-Updated 1/8/22 for personal use to increase number of blocked ad breaks to 5, and update manifest.json to new V3 standard.
+Updated 1/8/22 to increase number of blocked ad breaks to 5, and update manifest.json to new V3 standard.
 
 Forked from Kurt Culley's ITVSlayer Repo. Full credits still lie with Kurt Culley. https://github.com/kurt-culley/ITVSlayer
 
