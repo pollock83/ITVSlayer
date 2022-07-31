@@ -36,7 +36,7 @@ Object.keys(storageShows).map(show => {
   Object.keys(storageShows[show]).map(showKey => {
     if (showKey.match(/^([\d]{3})$/)) {
       storageShows[show][showKey].breaksWatched = {
-        indexes: [0, 1, 2, 3],
+        indexes: [0, 1, 2, 3, 4],
         timestamp: Date.now() - 1800000
       };
     }

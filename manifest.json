@@ -1,17 +1,26 @@
 {
   "name": "ITVSlayer",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Bypass ITV Hub ads",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
   "icons": {
     "128": "icon.png"
   },
   "content_scripts": [
     {
-      "matches": ["https://www.itv.com/*"],
-      "js": ["content.js"],
-      "run_at": "document_end" 
+      "matches": [
+        "https://www.itv.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
     }
   ],
-  "manifest_version": 2
+  "manifest_version": 3,
+  "content_security_policy": {}
 }
